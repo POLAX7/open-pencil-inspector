@@ -1,0 +1,408 @@
+{
+  "sourceFileKey": "wtjachg24GRbV81006Cw5g",
+  "sourceNode": "3:84259 was Sign In button; recovered image nodes are listed below",
+  "generatedAt": "2026-10-22T09:52:26.405Z",
+  "directImageFills": [
+    {
+      "imageRef": "8dd620834f51f59b4a8e055a4388a633344f5583",
+      "nodes": [
+        {
+          "id": "53207:117155",
+          "name": "Black Cream Bold Modern Karaoke Night Landscape Banner-11 1",
+          "type": "RECTANGLE"
+        }
+      ],
+      "source": "Figma REST GET /v1/files/:key/images",
+      "downloadedPath": "figs/recovered-assets/CryptoAndFoodApp/figma-image-fills/01-8dd620834f51f59b4a8e055a4388a633344f5583.bin"
+    },
+    {
+      "imageRef": "8e4241399baefbe8f8feffab0fe67682e140e1b1",
+      "nodes": [
+        {
+          "id": "3:84243",
+          "name": "google 1",
+          "type": "RECTANGLE"
+        }
+      ],
+      "source": "Figma REST GET /v1/files/:key/images",
+      "downloadedPath": "figs/recovered-assets/CryptoAndFoodApp/figma-image-fills/03-8e4241399baefbe8f8feffab0fe67682e140e1b1.bin"
+    },
+    {
+      "imageRef": "dc344a98e34f9f455b8d5fba425ae21a38375873",
+      "nodes": [
+        {
+          "id": "3:84247",
+          "name": "facebook 1",
+          "type": "RECTANGLE"
+        }
+      ],
+      "source": "Figma REST GET /v1/files/:key/images",
+      "downloadedPath": "figs/recovered-assets/CryptoAndFoodApp/figma-image-fills/04-dc344a98e34f9f455b8d5fba425ae21a38375873.bin"
+    },
+    {
+      "imageRef": "ca49c49b3c5f492b0e97bed9f08ad48ebe85925c",
+      "nodes": [
+        {
+          "id": "3:84422",
+          "name": "image 15",
+          "type": "RECTANGLE"
+        }
+      ],
+      "source": "Figma REST GET /v1/files/:key/images",
+      "downloadedPath": "figs/recovered-assets/CryptoAndFoodApp/figma-image-fills/06-ca49c49b3c5f492b0e97bed9f08ad48ebe85925c.bin"
+    },
+    {
+      "imageRef": "a5937769ca626d61605e8917f2b02a070ce19c6b",
+      "nodes": [
+        {
+          "id": "3:84440",
+          "name": "image 7",
+          "type": "RECTANGLE"
+        },
+        {
+          "id": "3:84556",
+          "name": "Rectangle 3",
+          "type": "RECTANGLE"
+        },
+        {
+          "id": "3:84557",
+          "name": "image 7",
+          "type": "RECTANGLE"
+        },
+        {
+          "id": "3:84571",
+          "name": "Rectangle 3",
+          "type": "RECTANGLE"
+        },
+        {
+          "id": "3:84572",
+          "name": "image 7",
+          "type": "RECTANGLE"
+        },
+        {
+          "id": "3:84586",
+          "name": "Rectangle 3",
+          "type": "RECTANGLE"
+        },
+        {
+          "id": "3:84587",
+          "name": "image 7",
+          "type": "RECTANGLE"
+        },
+        {
+          "id": "3:84601",
+          "name": "Rectangle 3",
+          "type": "RECTANGLE"
+        },
+        {
+          "id": "3:84602",
+          "name": "image 7",
+          "type": "RECTANGLE"
+        }
+      ],
+      "source": "Figma REST GET /v1/files/:key/images",
+      "downloadedPath": "figs/recovered-assets/CryptoAndFoodApp/figma-image-fills/07-a5937769ca626d61605e8917f2b02a070ce19c6b.bin"
+    },
+    {
+      "imageRef": "e19505a1481a7a4bbdfba5f9a8c0ffcee0cd80e1",
+      "nodes": [
+        {
+          "id": "3:84487",
+          "name": "image 8",
+          "type": "RECTANGLE"
+        }
+      ],
+      "source": "Figma REST GET /v1/files/:key/images",
+      "downloadedPath": "figs/recovered-assets/CryptoAndFoodApp/figma-image-fills/10-e19505a1481a7a4bbdfba5f9a8c0ffcee0cd80e1.bin"
+    },
+    {
+      "imageRef": "7d6b16145c65749e61291a3c940f7398ae527cbd",
+      "nodes": [
+        {
+          "id": "3:84758",
+          "name": "image 9",
+          "type": "RECTANGLE"
+        },
+        {
+          "id": "3:84765",
+          "name": "image 9",
+          "type": "RECTANGLE"
+        },
+        {
+          "id": "3:84773",
+          "name": "image 9",
+          "type": "RECTANGLE"
+        },
+        {
+          "id": "3:84820",
+          "name": "image 9",
+          "type": "RECTANGLE"
+        }
+      ],
+      "source": "Figma REST GET /v1/files/:key/images",
+      "downloadedPath": "figs/recovered-assets/CryptoAndFoodApp/figma-image-fills/13-7d6b16145c65749e61291a3c940f7398ae527cbd.bin"
+    },
+    {
+      "imageRef": "e29bec452ee38acf0bd5dd79abd89d09be17f2c1",
+      "nodes": [
+        {
+          "id": "3:84766",
+          "name": "image 12",
+          "type": "RECTANGLE"
+        }
+      ],
+      "source": "Figma REST GET /v1/files/:key/images",
+      "downloadedPath": "figs/recovered-assets/CryptoAndFoodApp/figma-image-fills/14-e29bec452ee38acf0bd5dd79abd89d09be17f2c1.bin"
+    },
+    {
+      "imageRef": "a645553e8236bb3fa318f088857d823b90c63ecb",
+      "nodes": [
+        {
+          "id": "3:87335",
+          "name": "Shape 1",
+          "type": "RECTANGLE"
+        }
+      ],
+      "source": "Figma REST GET /v1/files/:key/images",
+      "downloadedPath": "figs/recovered-assets/CryptoAndFoodApp/figma-image-fills/19-a645553e8236bb3fa318f088857d823b90c63ecb.bin"
+    },
+    {
+      "imageRef": "3f29d2dea3429e2bcf0c50c3eebc71e34b510cc2",
+      "nodes": [
+        {
+          "id": "3:87344",
+          "name": "mesh-gradient 1",
+          "type": "RECTANGLE"
+        }
+      ],
+      "source": "Figma REST GET /v1/files/:key/images",
+      "downloadedPath": "figs/recovered-assets/CryptoAndFoodApp/figma-image-fills/20-3f29d2dea3429e2bcf0c50c3eebc71e34b510cc2.bin"
+    },
+    {
+      "imageRef": "9f9f60087940e9cb160f0203d78ae2313044d7c0",
+      "nodes": [
+        {
+          "id": "53207:117183",
+          "name": "Black Cream Bold Modern Karaoke Night Landscape Banner-2 1",
+          "type": "RECTANGLE"
+        }
+      ],
+      "source": "Figma REST GET /v1/files/:key/images",
+      "downloadedPath": "figs/recovered-assets/CryptoAndFoodApp/figma-image-fills/22-9f9f60087940e9cb160f0203d78ae2313044d7c0.bin"
+    },
+    {
+      "imageRef": "700f3f67f1bf409d5a160d77b96a0b6ea38f2361",
+      "nodes": [
+        {
+          "id": "53207:117187",
+          "name": "Black Cream Bold Modern Karaoke Night Landscape Banner-7 1",
+          "type": "RECTANGLE"
+        }
+      ],
+      "source": "Figma REST GET /v1/files/:key/images",
+      "downloadedPath": "figs/recovered-assets/CryptoAndFoodApp/figma-image-fills/23-700f3f67f1bf409d5a160d77b96a0b6ea38f2361.bin"
+    }
+  ],
+  "recoveredRenderedNodes": [
+    {
+      "localImageRef": "1aaccae6cb3f9c3c34a87a80130d31b74ff8253a",
+      "figmaNodeId": "3:84219",
+      "name": "image 16",
+      "type": "RECTANGLE",
+      "recoveredPath": "figs/recovered-assets/CryptoAndFoodApp/rendered-nodes/3-84219.png",
+      "source": "Figma REST GET /v1/images"
+    },
+    {
+      "localImageRef": "369a951db7ffa7831b74c71f50a7fb34a1deb323",
+      "figmaNodeId": "3:84310",
+      "name": "image 2",
+      "type": "RECTANGLE",
+      "recoveredPath": "figs/recovered-assets/CryptoAndFoodApp/rendered-nodes/3-84310.png",
+      "source": "Figma REST GET /v1/images"
+    },
+    {
+      "localImageRef": "369a951db7ffa7831b74c71f50a7fb34a1deb323",
+      "figmaNodeId": "3:84380",
+      "name": "image 2",
+      "type": "RECTANGLE",
+      "recoveredPath": "figs/recovered-assets/CryptoAndFoodApp/rendered-nodes/3-84380.png",
+      "source": "Figma REST GET /v1/images"
+    },
+    {
+      "localImageRef": "369a951db7ffa7831b74c71f50a7fb34a1deb323",
+      "figmaNodeId": "3:84434",
+      "name": "image 2",
+      "type": "RECTANGLE",
+      "recoveredPath": "figs/recovered-assets/CryptoAndFoodApp/rendered-nodes/3-84434.png",
+      "source": "Figma REST GET /v1/images"
+    },
+    {
+      "localImageRef": "369a951db7ffa7831b74c71f50a7fb34a1deb323",
+      "figmaNodeId": "3:84550",
+      "name": "Rectangle 1",
+      "type": "RECTANGLE",
+      "recoveredPath": "figs/recovered-assets/CryptoAndFoodApp/rendered-nodes/3-84550.png",
+      "source": "Figma REST GET /v1/images"
+    },
+    {
+      "localImageRef": "369a951db7ffa7831b74c71f50a7fb34a1deb323",
+      "figmaNodeId": "3:84551",
+      "name": "image 2",
+      "type": "RECTANGLE",
+      "recoveredPath": "figs/recovered-assets/CryptoAndFoodApp/rendered-nodes/3-84551.png",
+      "source": "Figma REST GET /v1/images"
+    },
+    {
+      "localImageRef": "369a951db7ffa7831b74c71f50a7fb34a1deb323",
+      "figmaNodeId": "3:84851",
+      "name": "image 2",
+      "type": "RECTANGLE",
+      "recoveredPath": "figs/recovered-assets/CryptoAndFoodApp/rendered-nodes/3-84851.png",
+      "source": "Figma REST GET /v1/images"
+    },
+    {
+      "localImageRef": "369a951db7ffa7831b74c71f50a7fb34a1deb323",
+      "figmaNodeId": "3:84893",
+      "name": "image 2",
+      "type": "RECTANGLE",
+      "recoveredPath": "figs/recovered-assets/CryptoAndFoodApp/rendered-nodes/3-84893.png",
+      "source": "Figma REST GET /v1/images"
+    },
+    {
+      "localImageRef": "b652dfa113e4b4afeea10714311af25d30a3baa3",
+      "figmaNodeId": "3:84455",
+      "name": "bg",
+      "type": "RECTANGLE",
+      "recoveredPath": "figs/recovered-assets/CryptoAndFoodApp/rendered-nodes/3-84455.png",
+      "source": "Figma REST GET /v1/images"
+    },
+    {
+      "localImageRef": "b652dfa113e4b4afeea10714311af25d30a3baa3",
+      "figmaNodeId": "3:84470",
+      "name": "bg",
+      "type": "RECTANGLE",
+      "recoveredPath": "figs/recovered-assets/CryptoAndFoodApp/rendered-nodes/3-84470.png",
+      "source": "Figma REST GET /v1/images"
+    },
+    {
+      "localImageRef": "b652dfa113e4b4afeea10714311af25d30a3baa3",
+      "figmaNodeId": "3:84486",
+      "name": "bg",
+      "type": "RECTANGLE",
+      "recoveredPath": "figs/recovered-assets/CryptoAndFoodApp/rendered-nodes/3-84486.png",
+      "source": "Figma REST GET /v1/images"
+    },
+    {
+      "localImageRef": "e52c8246dc701cd1dd1564feab6123b1c9ac053f",
+      "figmaNodeId": "3:84471",
+      "name": "image 8",
+      "type": "RECTANGLE",
+      "recoveredPath": "figs/recovered-assets/CryptoAndFoodApp/rendered-nodes/3-84471.png",
+      "source": "Figma REST GET /v1/images"
+    },
+    {
+      "localImageRef": "c0f5e07597d25a884fc35c413f3bb756994232b7",
+      "figmaNodeId": "3:84529",
+      "name": "image 6",
+      "type": "RECTANGLE",
+      "recoveredPath": "figs/recovered-assets/CryptoAndFoodApp/rendered-nodes/3-84529.png",
+      "source": "Figma REST GET /v1/images"
+    },
+    {
+      "localImageRef": "c0f5e07597d25a884fc35c413f3bb756994232b7",
+      "figmaNodeId": "3:84644",
+      "name": "image 6",
+      "type": "RECTANGLE",
+      "recoveredPath": "figs/recovered-assets/CryptoAndFoodApp/rendered-nodes/3-84644.png",
+      "source": "Figma REST GET /v1/images"
+    },
+    {
+      "localImageRef": "c0f5e07597d25a884fc35c413f3bb756994232b7",
+      "figmaNodeId": "3:84664",
+      "name": "image 6",
+      "type": "RECTANGLE",
+      "recoveredPath": "figs/recovered-assets/CryptoAndFoodApp/rendered-nodes/3-84664.png",
+      "source": "Figma REST GET /v1/images"
+    },
+    {
+      "localImageRef": "c0f5e07597d25a884fc35c413f3bb756994232b7",
+      "figmaNodeId": "3:84721",
+      "name": "image 6",
+      "type": "RECTANGLE",
+      "recoveredPath": "figs/recovered-assets/CryptoAndFoodApp/rendered-nodes/3-84721.png",
+      "source": "Figma REST GET /v1/images"
+    },
+    {
+      "localImageRef": "c0f5e07597d25a884fc35c413f3bb756994232b7",
+      "figmaNodeId": "3:84953",
+      "name": "image 6",
+      "type": "RECTANGLE",
+      "recoveredPath": "figs/recovered-assets/CryptoAndFoodApp/rendered-nodes/3-84953.png",
+      "source": "Figma REST GET /v1/images"
+    },
+    {
+      "localImageRef": "c0f5e07597d25a884fc35c413f3bb756994232b7",
+      "figmaNodeId": "3:85059",
+      "name": "image 6",
+      "type": "RECTANGLE",
+      "recoveredPath": "figs/recovered-assets/CryptoAndFoodApp/rendered-nodes/3-85059.png",
+      "source": "Figma REST GET /v1/images"
+    },
+    {
+      "localImageRef": "ed28ed20abb1506356240c70d6db7bc68121997f",
+      "figmaNodeId": "3:84542",
+      "name": "image 5",
+      "type": "RECTANGLE",
+      "recoveredPath": "figs/recovered-assets/CryptoAndFoodApp/rendered-nodes/3-84542.png",
+      "source": "Figma REST GET /v1/images"
+    },
+    {
+      "localImageRef": "ed28ed20abb1506356240c70d6db7bc68121997f",
+      "figmaNodeId": "3:84657",
+      "name": "image 5",
+      "type": "RECTANGLE",
+      "recoveredPath": "figs/recovered-assets/CryptoAndFoodApp/rendered-nodes/3-84657.png",
+      "source": "Figma REST GET /v1/images"
+    },
+    {
+      "localImageRef": "2e9fae584b3738248a22cc0a89fdceb6b0ab0cb4",
+      "figmaNodeId": "3:84774",
+      "name": "image 11",
+      "type": "RECTANGLE",
+      "recoveredPath": "figs/recovered-assets/CryptoAndFoodApp/rendered-nodes/3-84774.png",
+      "source": "Figma REST GET /v1/images"
+    },
+    {
+      "localImageRef": "29d30ea08b9a9d822b316942557976975fbdc5e4",
+      "figmaNodeId": "3:84781",
+      "name": "image 13",
+      "type": "RECTANGLE",
+      "recoveredPath": "figs/recovered-assets/CryptoAndFoodApp/rendered-nodes/3-84781.png",
+      "source": "Figma REST GET /v1/images"
+    },
+    {
+      "localImageRef": "67d561e592117622e02257409d9adac9e0f79c83",
+      "figmaNodeId": "3:84812",
+      "name": "image 10",
+      "type": "RECTANGLE",
+      "recoveredPath": "figs/recovered-assets/CryptoAndFoodApp/rendered-nodes/3-84812.png",
+      "source": "Figma REST GET /v1/images"
+    },
+    {
+      "localImageRef": "b936e1427b05fcc3e6c17fce648fc419aa330f8a",
+      "figmaNodeId": "3:85095",
+      "name": "image 14",
+      "type": "RECTANGLE",
+      "recoveredPath": "figs/recovered-assets/CryptoAndFoodApp/rendered-nodes/3-85095.png",
+      "source": "Figma REST GET /v1/images"
+    },
+    {
+      "localImageRef": "de000380c5dc53da18af49f0eedbcbc11862e22d",
+      "figmaNodeId": "3:87351",
+      "name": "unsplash:pAtA8xe_iVM",
+      "type": "ELLIPSE",
+      "recoveredPath": "figs/recovered-assets/CryptoAndFoodApp/rendered-nodes/3-87351.png",
+      "source": "Figma REST GET /v1/images"
+    }
+  ]
+}

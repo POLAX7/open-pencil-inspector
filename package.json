@@ -1,0 +1,21 @@
+{
+  "name": "open-pencil-inspector",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test:unit": "bun test packages",
+    "check": "find packages -name '*.ts' -print0 | xargs -0 -n1 node --experimental-strip-types --check",
+    "verify:figs": "node --experimental-strip-types scripts/verify-fig-fixtures.ts",
+    "verify:selection": "node --experimental-strip-types scripts/verify-selection-scope.ts",
+    "verify:baseline": "node --experimental-strip-types scripts/verify-baseline.ts"
+  },
+  "bin": {
+    "open-pencil-inspector": "packages/cli/src/main.ts"
+  },
+  "devDependencies": {
+    "@open-pencil/cli": "0.16.0",
+    "@open-pencil/mcp": "0.16.0",
+    "pixelmatch": "7.2.0",
+    "pngjs": "7.0.0"
+  }
+}

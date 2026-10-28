@@ -1,0 +1,960 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BA8E48ACD937419C2E3DC00 /* PaymentAddressContracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F89FB2D0B5F82460234834 /* PaymentAddressContracts.swift */; };
+		1D44FE9E679C6995FF23B2DB /* CryptoAndFoodAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D479043BC688E6FB2996C3C6 /* CryptoAndFoodAppView.swift */; };
+		23C0BFDBEBFFC9CBE6B54690 /* UIKitRouteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA8E82449A3D9926A36E038 /* UIKitRouteUITests.swift */; };
+		2D1CCE89F5EACFFE41779D2A /* CryptoAndFoodAppExistingAppIntegration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886260ED44DCFBDBA12FB4D0 /* CryptoAndFoodAppExistingAppIntegration.swift */; };
+		44156BE256983B1DD4762B27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895766E031872AF06D2B59F2 /* AppDelegate.swift */; };
+		4BD0AA26F080915AF1913AA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99D4C2AF1C9A024CA1AA1F84 /* Assets.xcassets */; };
+		5BDE1F860218870C20FFFEE7 /* image-16.png in Resources */ = {isa = PBXBuildFile; fileRef = B191CF16694854F451D29407 /* image-16.png */; };
+		6028EC88CF105D2161A8823B /* TuistAssets+OpenPencilSwiftUIDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E6DAB803D551E9C8460E2E /* TuistAssets+OpenPencilSwiftUIDemo.swift */; };
+		6CC19D5FE66AB3C1E97254E7 /* image-6.svg in Resources */ = {isa = PBXBuildFile; fileRef = CED746386990E805AD76010B /* image-6.svg */; };
+		6FC0371C923AC95C120CE2E5 /* TuistAssets+OpenPencilUIKitDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA553F0315E0566EB856D933 /* TuistAssets+OpenPencilUIKitDemo.swift */; };
+		73EE42433D7BEB94EADF0E96 /* CryptoAndFoodAppExistingAppIntegration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96248AB4CCDE2CB44814D104 /* CryptoAndFoodAppExistingAppIntegration.swift */; };
+		7D841F723B4CDAB4E90F77A8 /* FoodDetailsContracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7FC06353009E6966CE0100 /* FoodDetailsContracts.swift */; };
+		949A59CD66EECE2F2442E6E6 /* PaymentAddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC759EC6A2C171B35BF661AD /* PaymentAddressViewController.swift */; };
+		96E8CFC7269588394A551C24 /* FoodDetailsContracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0227D07D46A5B550F9DE5A8E /* FoodDetailsContracts.swift */; };
+		96EBF40F715CFCBA02FE0B2B /* TuistBundle+OpenPencilSwiftUIDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3536DDBD7AE9B93745AF617D /* TuistBundle+OpenPencilSwiftUIDemo.swift */; };
+		9AD965C7F6E3023D9ECB89E2 /* FoodDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137E1426EF54EC74604DA506 /* FoodDetailsViewController.swift */; };
+		9FC9B0FE91D2FB416890DFF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D63C7E75FAB6DD73F7131CC4 /* Assets.xcassets */; };
+		A35389F8B8A35BEC751C0078 /* PaymentAddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11699162903093B9FE7BECB0 /* PaymentAddressView.swift */; };
+		A8B6575AA6725D5ABF06D5E8 /* food-details-image-6.svg in Resources */ = {isa = PBXBuildFile; fileRef = 781B80B798538FFD2BDE2855 /* food-details-image-6.svg */; };
+		B1C020BAA2601197831EE73A /* food-details-image-6.svg in Resources */ = {isa = PBXBuildFile; fileRef = 930E57059AD8A6D23285F9B7 /* food-details-image-6.svg */; };
+		B1DBB0DBFF5F22E99C66A72C /* TuistBundle+OpenPencilUIKitDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DEDB4646DB4EF5F001A1C6 /* TuistBundle+OpenPencilUIKitDemo.swift */; };
+		B71C40574B1904205B8BE546 /* OpenPencilSwiftUIDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7671BA6B6C82D08A138B1AE1 /* OpenPencilSwiftUIDemoApp.swift */; };
+		C28E9993F364D99009475BE2 /* image-16.png in Resources */ = {isa = PBXBuildFile; fileRef = 88CD1B12C31D2EC883372C19 /* image-16.png */; };
+		C570A9EE60E696961B5A8BA1 /* SwiftUIRouteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A87C7EEF1166ADE6C1BECAD /* SwiftUIRouteUITests.swift */; };
+		CB318C50C7344BE94F7102AA /* CryptoAndFoodAppContracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778EAD6FD93D7FA5FFBAD6B7 /* CryptoAndFoodAppContracts.swift */; };
+		DACFA8E0160C8C5BDDE82C70 /* CryptoAndFoodAppContracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E25316061CCB79DBCADB30 /* CryptoAndFoodAppContracts.swift */; };
+		DEA07AD852A77943ABF9A222 /* CryptoAndFoodAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77451CB130125229DE546E1C /* CryptoAndFoodAppViewController.swift */; };
+		EDA1A67B3C1E32974F608EE3 /* image-6.svg in Resources */ = {isa = PBXBuildFile; fileRef = 7CFABC01349AF7319E1F40EB /* image-6.svg */; };
+		FD4377A749D87D584B06F606 /* PaymentAddressContracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA697A8F39D54EF3B4E088F4 /* PaymentAddressContracts.swift */; };
+		FEB053AA3229B407A03E1820 /* FoodDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C05E456A6A3B64EBD550AE /* FoodDetailsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		700C1EBFE8F8580D100C0F24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3469B61457D18A4821678B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A8D20E95821BAEC360B74AF;
+			remoteInfo = OpenPencilUIKitDemo;
+		};
+		A677F94039EA808A4A0B2AFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3469B61457D18A4821678B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D7CF31B9C29341C7A630C50;
+			remoteInfo = OpenPencilSwiftUIDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		058A11DA03D3844AB0B30EBF /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		094738F75841AE7B407E7421 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32C94523FED223FE0F304795 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB0FC2EC226355B842ECC9FC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0227D07D46A5B550F9DE5A8E /* FoodDetailsContracts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailsContracts.swift; sourceTree = "<group>"; };
+		11699162903093B9FE7BECB0 /* PaymentAddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentAddressView.swift; sourceTree = "<group>"; };
+		137E1426EF54EC74604DA506 /* FoodDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailsViewController.swift; sourceTree = "<group>"; };
+		2AD45C8A4133D50CC25494A9 /* OpenPencilUIKitDemoUITests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "OpenPencilUIKitDemoUITests-Info.plist"; sourceTree = "<group>"; };
+		3536DDBD7AE9B93745AF617D /* TuistBundle+OpenPencilSwiftUIDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+OpenPencilSwiftUIDemo.swift"; sourceTree = "<group>"; };
+		49E25316061CCB79DBCADB30 /* CryptoAndFoodAppContracts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoAndFoodAppContracts.swift; sourceTree = "<group>"; };
+		4A87C7EEF1166ADE6C1BECAD /* SwiftUIRouteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIRouteUITests.swift; sourceTree = "<group>"; };
+		4D7FC06353009E6966CE0100 /* FoodDetailsContracts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailsContracts.swift; sourceTree = "<group>"; };
+		5489F43DABA3F210FA542A47 /* OpenPencilSwiftUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenPencilSwiftUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67E8D7FADC50F5258663220D /* OpenPencilUIKitDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenPencilUIKitDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7671BA6B6C82D08A138B1AE1 /* OpenPencilSwiftUIDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenPencilSwiftUIDemoApp.swift; sourceTree = "<group>"; };
+		77451CB130125229DE546E1C /* CryptoAndFoodAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoAndFoodAppViewController.swift; sourceTree = "<group>"; };
+		778EAD6FD93D7FA5FFBAD6B7 /* CryptoAndFoodAppContracts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoAndFoodAppContracts.swift; sourceTree = "<group>"; };
+		781B80B798538FFD2BDE2855 /* food-details-image-6.svg */ = {isa = PBXFileReference; path = "food-details-image-6.svg"; sourceTree = "<group>"; };
+		7CFABC01349AF7319E1F40EB /* image-6.svg */ = {isa = PBXFileReference; path = "image-6.svg"; sourceTree = "<group>"; };
+		8584C1A9EB05AE4AD0EE40EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		886260ED44DCFBDBA12FB4D0 /* CryptoAndFoodAppExistingAppIntegration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoAndFoodAppExistingAppIntegration.swift; sourceTree = "<group>"; };
+		88CD1B12C31D2EC883372C19 /* image-16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image-16.png"; sourceTree = "<group>"; };
+		895766E031872AF06D2B59F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8AA8E82449A3D9926A36E038 /* UIKitRouteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitRouteUITests.swift; sourceTree = "<group>"; };
+		930E57059AD8A6D23285F9B7 /* food-details-image-6.svg */ = {isa = PBXFileReference; path = "food-details-image-6.svg"; sourceTree = "<group>"; };
+		96248AB4CCDE2CB44814D104 /* CryptoAndFoodAppExistingAppIntegration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoAndFoodAppExistingAppIntegration.swift; sourceTree = "<group>"; };
+		9895D18978B38B6434CA5754 /* OpenPencilSwiftUIDemoUITests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "OpenPencilSwiftUIDemoUITests-Info.plist"; sourceTree = "<group>"; };
+		99D4C2AF1C9A024CA1AA1F84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B28A748A4B47637D50A6857 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A570F0071E92C185B81E1CD4 /* OpenPencilSwiftUIDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenPencilSwiftUIDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A90420A40A81565BD43A955D /* OpenPencilUIKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenPencilUIKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B191CF16694854F451D29407 /* image-16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image-16.png"; sourceTree = "<group>"; };
+		B3E6DAB803D551E9C8460E2E /* TuistAssets+OpenPencilSwiftUIDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistAssets+OpenPencilSwiftUIDemo.swift"; sourceTree = "<group>"; };
+		BA553F0315E0566EB856D933 /* TuistAssets+OpenPencilUIKitDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistAssets+OpenPencilUIKitDemo.swift"; sourceTree = "<group>"; };
+		CED746386990E805AD76010B /* image-6.svg */ = {isa = PBXFileReference; path = "image-6.svg"; sourceTree = "<group>"; };
+		D479043BC688E6FB2996C3C6 /* CryptoAndFoodAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoAndFoodAppView.swift; sourceTree = "<group>"; };
+		D63C7E75FAB6DD73F7131CC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6DEDB4646DB4EF5F001A1C6 /* TuistBundle+OpenPencilUIKitDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+OpenPencilUIKitDemo.swift"; sourceTree = "<group>"; };
+		D9F89FB2D0B5F82460234834 /* PaymentAddressContracts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentAddressContracts.swift; sourceTree = "<group>"; };
+		DC759EC6A2C171B35BF661AD /* PaymentAddressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentAddressViewController.swift; sourceTree = "<group>"; };
+		E2C05E456A6A3B64EBD550AE /* FoodDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailsView.swift; sourceTree = "<group>"; };
+		FA697A8F39D54EF3B4E088F4 /* PaymentAddressContracts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentAddressContracts.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26DFCDDA7A4C13536C48157E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E5501EDA0037846F0507596 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABE0FFD04D55BBBAAE96D2FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B16AE11F0C7291C93D4D8689 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		022F914CBB038DDCC827BEEE /* SwiftUIApp */ = {
+			isa = PBXGroup;
+			children = (
+				E6A7AF3DD141F03C558436CC /* Generated */,
+				E54310BC02F9B89EECF7DA61 /* Resources */,
+				8584C1A9EB05AE4AD0EE40EA /* Info.plist */,
+				7671BA6B6C82D08A138B1AE1 /* OpenPencilSwiftUIDemoApp.swift */,
+			);
+			path = SwiftUIApp;
+			sourceTree = "<group>";
+		};
+		14AF2F420FFE101432BC78CE /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				23D0E09E0099659FB2F60E9A /* Derived */,
+				022F914CBB038DDCC827BEEE /* SwiftUIApp */,
+				6A625EC27B398968E15632D1 /* UIKitApp */,
+				2A4D79937EAEC4E1475F13A9 /* UITests */,
+			);
+			name = Project;
+			sourceTree = "<group>";
+		};
+		1AEF8C9F811FB1CE8477951C /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B3E6DAB803D551E9C8460E2E /* TuistAssets+OpenPencilSwiftUIDemo.swift */,
+				BA553F0315E0566EB856D933 /* TuistAssets+OpenPencilUIKitDemo.swift */,
+				3536DDBD7AE9B93745AF617D /* TuistBundle+OpenPencilSwiftUIDemo.swift */,
+				D6DEDB4646DB4EF5F001A1C6 /* TuistBundle+OpenPencilUIKitDemo.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		23D0E09E0099659FB2F60E9A /* Derived */ = {
+			isa = PBXGroup;
+			children = (
+				63028D4B3EA8E482E67E9D4C /* InfoPlists */,
+				1AEF8C9F811FB1CE8477951C /* Sources */,
+			);
+			path = Derived;
+			sourceTree = "<group>";
+		};
+		2A4D79937EAEC4E1475F13A9 /* UITests */ = {
+			isa = PBXGroup;
+			children = (
+				4A87C7EEF1166ADE6C1BECAD /* SwiftUIRouteUITests.swift */,
+				8AA8E82449A3D9926A36E038 /* UIKitRouteUITests.swift */,
+			);
+			path = UITests;
+			sourceTree = "<group>";
+		};
+		2AE3BD8A5960D39B13376819 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				99D4C2AF1C9A024CA1AA1F84 /* Assets.xcassets */,
+				781B80B798538FFD2BDE2855 /* food-details-image-6.svg */,
+				7CFABC01349AF7319E1F40EB /* image-6.svg */,
+				88CD1B12C31D2EC883372C19 /* image-16.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		63028D4B3EA8E482E67E9D4C /* InfoPlists */ = {
+			isa = PBXGroup;
+			children = (
+				9895D18978B38B6434CA5754 /* OpenPencilSwiftUIDemoUITests-Info.plist */,
+				2AD45C8A4133D50CC25494A9 /* OpenPencilUIKitDemoUITests-Info.plist */,
+			);
+			path = InfoPlists;
+			sourceTree = "<group>";
+		};
+		6A625EC27B398968E15632D1 /* UIKitApp */ = {
+			isa = PBXGroup;
+			children = (
+				FFDACDC762EDEF43100B3B32 /* Generated */,
+				2AE3BD8A5960D39B13376819 /* Resources */,
+				895766E031872AF06D2B59F2 /* AppDelegate.swift */,
+				9B28A748A4B47637D50A6857 /* Info.plist */,
+			);
+			path = UIKitApp;
+			sourceTree = "<group>";
+		};
+		94F9C8528CFD567C226D637D = {
+			isa = PBXGroup;
+			children = (
+				B1C462F944AA15ECF33D526E /* Products */,
+				14AF2F420FFE101432BC78CE /* Project */,
+			);
+			sourceTree = "<group>";
+		};
+		B1C462F944AA15ECF33D526E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5489F43DABA3F210FA542A47 /* OpenPencilSwiftUIDemo.app */,
+				A570F0071E92C185B81E1CD4 /* OpenPencilSwiftUIDemoUITests.xctest */,
+				A90420A40A81565BD43A955D /* OpenPencilUIKitDemo.app */,
+				67E8D7FADC50F5258663220D /* OpenPencilUIKitDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E54310BC02F9B89EECF7DA61 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D63C7E75FAB6DD73F7131CC4 /* Assets.xcassets */,
+				930E57059AD8A6D23285F9B7 /* food-details-image-6.svg */,
+				CED746386990E805AD76010B /* image-6.svg */,
+				B191CF16694854F451D29407 /* image-16.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E6A7AF3DD141F03C558436CC /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				49E25316061CCB79DBCADB30 /* CryptoAndFoodAppContracts.swift */,
+				96248AB4CCDE2CB44814D104 /* CryptoAndFoodAppExistingAppIntegration.swift */,
+				D479043BC688E6FB2996C3C6 /* CryptoAndFoodAppView.swift */,
+				0227D07D46A5B550F9DE5A8E /* FoodDetailsContracts.swift */,
+				E2C05E456A6A3B64EBD550AE /* FoodDetailsView.swift */,
+				D9F89FB2D0B5F82460234834 /* PaymentAddressContracts.swift */,
+				11699162903093B9FE7BECB0 /* PaymentAddressView.swift */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		FFDACDC762EDEF43100B3B32 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				778EAD6FD93D7FA5FFBAD6B7 /* CryptoAndFoodAppContracts.swift */,
+				886260ED44DCFBDBA12FB4D0 /* CryptoAndFoodAppExistingAppIntegration.swift */,
+				77451CB130125229DE546E1C /* CryptoAndFoodAppViewController.swift */,
+				4D7FC06353009E6966CE0100 /* FoodDetailsContracts.swift */,
+				137E1426EF54EC74604DA506 /* FoodDetailsViewController.swift */,
+				FA697A8F39D54EF3B4E088F4 /* PaymentAddressContracts.swift */,
+				DC759EC6A2C171B35BF661AD /* PaymentAddressViewController.swift */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D7CF31B9C29341C7A630C50 /* OpenPencilSwiftUIDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50394DACD2439F007D5BB5AE /* Build configuration list for PBXNativeTarget "OpenPencilSwiftUIDemo" */;
+			buildPhases = (
+				80C0436F2758F49704297C29 /* Sources */,
+				050C85BA88A4A17581B0AA23 /* Resources */,
+				B16AE11F0C7291C93D4D8689 /* Frameworks */,
+				094738F75841AE7B407E7421 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenPencilSwiftUIDemo;
+			packageProductDependencies = (
+			);
+			productName = OpenPencilSwiftUIDemo;
+			productReference = 5489F43DABA3F210FA542A47 /* OpenPencilSwiftUIDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A8D20E95821BAEC360B74AF /* OpenPencilUIKitDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B28FE519F2400AF6BCD36191 /* Build configuration list for PBXNativeTarget "OpenPencilUIKitDemo" */;
+			buildPhases = (
+				F5A4B23457FFD9875AFA10C4 /* Sources */,
+				061D80B5C417D5F63E5848AB /* Resources */,
+				ABE0FFD04D55BBBAAE96D2FF /* Frameworks */,
+				058A11DA03D3844AB0B30EBF /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenPencilUIKitDemo;
+			packageProductDependencies = (
+			);
+			productName = OpenPencilUIKitDemo;
+			productReference = A90420A40A81565BD43A955D /* OpenPencilUIKitDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		83EEAB1F92D89FB2CC024BB4 /* OpenPencilUIKitDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0AF468A018B74A149F30C18 /* Build configuration list for PBXNativeTarget "OpenPencilUIKitDemoUITests" */;
+			buildPhases = (
+				5073BA1912D3B17CEA83E7B7 /* Sources */,
+				9137AC8FCDB7DBCFBB024402 /* Resources */,
+				26DFCDDA7A4C13536C48157E /* Frameworks */,
+				DB0FC2EC226355B842ECC9FC /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D74989366F9B6E31C9AFECE /* PBXTargetDependency */,
+			);
+			name = OpenPencilUIKitDemoUITests;
+			packageProductDependencies = (
+			);
+			productName = OpenPencilUIKitDemoUITests;
+			productReference = 67E8D7FADC50F5258663220D /* OpenPencilUIKitDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		E6A9A3908FE23DB0A0160D2A /* OpenPencilSwiftUIDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CF415FC51939D1F7F9670E4 /* Build configuration list for PBXNativeTarget "OpenPencilSwiftUIDemoUITests" */;
+			buildPhases = (
+				197B8441E6F10E53F5447787 /* Sources */,
+				909488E2E16EDC399DDAFE0E /* Resources */,
+				9E5501EDA0037846F0507596 /* Frameworks */,
+				32C94523FED223FE0F304795 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD3C8A906CF75DD752BDEA0B /* PBXTargetDependency */,
+			);
+			name = OpenPencilSwiftUIDemoUITests;
+			packageProductDependencies = (
+			);
+			productName = OpenPencilSwiftUIDemoUITests;
+			productReference = A570F0071E92C185B81E1CD4 /* OpenPencilSwiftUIDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3469B61457D18A4821678B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				TargetAttributes = {
+					83EEAB1F92D89FB2CC024BB4 = {
+						TestTargetID = 7A8D20E95821BAEC360B74AF;
+					};
+					E6A9A3908FE23DB0A0160D2A = {
+						TestTargetID = 4D7CF31B9C29341C7A630C50;
+					};
+				};
+			};
+			buildConfigurationList = FE8DB6193847815783169128 /* Build configuration list for PBXProject "OpenPencilDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 94F9C8528CFD567C226D637D;
+			productRefGroup = B1C462F944AA15ECF33D526E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D7CF31B9C29341C7A630C50 /* OpenPencilSwiftUIDemo */,
+				E6A9A3908FE23DB0A0160D2A /* OpenPencilSwiftUIDemoUITests */,
+				7A8D20E95821BAEC360B74AF /* OpenPencilUIKitDemo */,
+				83EEAB1F92D89FB2CC024BB4 /* OpenPencilUIKitDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		050C85BA88A4A17581B0AA23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FC9B0FE91D2FB416890DFF3 /* Assets.xcassets in Resources */,
+				B1C020BAA2601197831EE73A /* food-details-image-6.svg in Resources */,
+				5BDE1F860218870C20FFFEE7 /* image-16.png in Resources */,
+				6CC19D5FE66AB3C1E97254E7 /* image-6.svg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		061D80B5C417D5F63E5848AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BD0AA26F080915AF1913AA9 /* Assets.xcassets in Resources */,
+				A8B6575AA6725D5ABF06D5E8 /* food-details-image-6.svg in Resources */,
+				C28E9993F364D99009475BE2 /* image-16.png in Resources */,
+				EDA1A67B3C1E32974F608EE3 /* image-6.svg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		909488E2E16EDC399DDAFE0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9137AC8FCDB7DBCFBB024402 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		197B8441E6F10E53F5447787 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C570A9EE60E696961B5A8BA1 /* SwiftUIRouteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5073BA1912D3B17CEA83E7B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23C0BFDBEBFFC9CBE6B54690 /* UIKitRouteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80C0436F2758F49704297C29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6028EC88CF105D2161A8823B /* TuistAssets+OpenPencilSwiftUIDemo.swift in Sources */,
+				96EBF40F715CFCBA02FE0B2B /* TuistBundle+OpenPencilSwiftUIDemo.swift in Sources */,
+				DACFA8E0160C8C5BDDE82C70 /* CryptoAndFoodAppContracts.swift in Sources */,
+				73EE42433D7BEB94EADF0E96 /* CryptoAndFoodAppExistingAppIntegration.swift in Sources */,
+				1D44FE9E679C6995FF23B2DB /* CryptoAndFoodAppView.swift in Sources */,
+				96E8CFC7269588394A551C24 /* FoodDetailsContracts.swift in Sources */,
+				FEB053AA3229B407A03E1820 /* FoodDetailsView.swift in Sources */,
+				0BA8E48ACD937419C2E3DC00 /* PaymentAddressContracts.swift in Sources */,
+				A35389F8B8A35BEC751C0078 /* PaymentAddressView.swift in Sources */,
+				B71C40574B1904205B8BE546 /* OpenPencilSwiftUIDemoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5A4B23457FFD9875AFA10C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FC0371C923AC95C120CE2E5 /* TuistAssets+OpenPencilUIKitDemo.swift in Sources */,
+				B1DBB0DBFF5F22E99C66A72C /* TuistBundle+OpenPencilUIKitDemo.swift in Sources */,
+				44156BE256983B1DD4762B27 /* AppDelegate.swift in Sources */,
+				CB318C50C7344BE94F7102AA /* CryptoAndFoodAppContracts.swift in Sources */,
+				2D1CCE89F5EACFFE41779D2A /* CryptoAndFoodAppExistingAppIntegration.swift in Sources */,
+				DEA07AD852A77943ABF9A222 /* CryptoAndFoodAppViewController.swift in Sources */,
+				7D841F723B4CDAB4E90F77A8 /* FoodDetailsContracts.swift in Sources */,
+				9AD965C7F6E3023D9ECB89E2 /* FoodDetailsViewController.swift in Sources */,
+				FD4377A749D87D584B06F606 /* PaymentAddressContracts.swift in Sources */,
+				949A59CD66EECE2F2442E6E6 /* PaymentAddressViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D74989366F9B6E31C9AFECE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OpenPencilUIKitDemo;
+			target = 7A8D20E95821BAEC360B74AF /* OpenPencilUIKitDemo */;
+			targetProxy = 700C1EBFE8F8580D100C0F24 /* PBXContainerItemProxy */;
+		};
+		CD3C8A906CF75DD752BDEA0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OpenPencilSwiftUIDemo;
+			target = 4D7CF31B9C29341C7A630C50 /* OpenPencilSwiftUIDemo */;
+			targetProxy = A677F94039EA808A4A0B2AFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D17334E9D49EAEE4513EE19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Derived/InfoPlists/OpenPencilUIKitDemoUITests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-L$(DT_TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.openpencil.inspector.uikit-demo.uitests";
+				PRODUCT_NAME = OpenPencilUIKitDemoUITests;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OpenPencilUIKitDemo;
+			};
+			name = Release;
+		};
+		2FAD131F23BB4FF5878A7741 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		678D87D473E791D60CDE8D76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = UIKitApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-L$(DT_TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.openpencil.inspector.uikit-demo";
+				PRODUCT_NAME = OpenPencilUIKitDemo;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		760865415CA1E58EB78442F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		834E7FA8D26F0C8BFEFCA6C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = UIKitApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-L$(DT_TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.openpencil.inspector.uikit-demo";
+				PRODUCT_NAME = OpenPencilUIKitDemo;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		94DEDE1715A43B8441645C15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SwiftUIApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-L$(DT_TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.openpencil.inspector.swiftui-demo";
+				PRODUCT_NAME = OpenPencilSwiftUIDemo;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B314F54B3D7F2E32CF5F9EF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Derived/InfoPlists/OpenPencilUIKitDemoUITests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-L$(DT_TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.openpencil.inspector.uikit-demo.uitests";
+				PRODUCT_NAME = OpenPencilUIKitDemoUITests;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OpenPencilUIKitDemo;
+			};
+			name = Debug;
+		};
+		C59336DA105A16A55D3BD9B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Derived/InfoPlists/OpenPencilSwiftUIDemoUITests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-L$(DT_TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.openpencil.inspector.swiftui-demo.uitests";
+				PRODUCT_NAME = OpenPencilSwiftUIDemoUITests;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OpenPencilSwiftUIDemo;
+			};
+			name = Debug;
+		};
+		E2E6B7DA54E75899FB0662CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SwiftUIApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-L$(DT_TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.openpencil.inspector.swiftui-demo";
+				PRODUCT_NAME = OpenPencilSwiftUIDemo;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E3F7A4C6049823C5DEBE3B70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Derived/InfoPlists/OpenPencilSwiftUIDemoUITests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-L$(DT_TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.openpencil.inspector.swiftui-demo.uitests";
+				PRODUCT_NAME = OpenPencilSwiftUIDemoUITests;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OpenPencilSwiftUIDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CF415FC51939D1F7F9670E4 /* Build configuration list for PBXNativeTarget "OpenPencilSwiftUIDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C59336DA105A16A55D3BD9B1 /* Debug */,
+				E3F7A4C6049823C5DEBE3B70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50394DACD2439F007D5BB5AE /* Build configuration list for PBXNativeTarget "OpenPencilSwiftUIDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94DEDE1715A43B8441645C15 /* Debug */,
+				E2E6B7DA54E75899FB0662CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0AF468A018B74A149F30C18 /* Build configuration list for PBXNativeTarget "OpenPencilUIKitDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B314F54B3D7F2E32CF5F9EF2 /* Debug */,
+				1D17334E9D49EAEE4513EE19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B28FE519F2400AF6BCD36191 /* Build configuration list for PBXNativeTarget "OpenPencilUIKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				678D87D473E791D60CDE8D76 /* Debug */,
+				834E7FA8D26F0C8BFEFCA6C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE8DB6193847815783169128 /* Build configuration list for PBXProject "OpenPencilDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				760865415CA1E58EB78442F8 /* Debug */,
+				2FAD131F23BB4FF5878A7741 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3469B61457D18A4821678B9 /* Project object */;
+}

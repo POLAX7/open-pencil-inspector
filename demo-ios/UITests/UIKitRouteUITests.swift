@@ -1,0 +1,26 @@
+import XCTest
+
+final class UIKitRouteUITests: XCTestCase {
+    func testCatalogToUIKitGeneratedScreen() {
+        let app = XCUIApplication(bundleIdentifier: "com.openpencil.inspector.uikit-demo")
+        app.launch()
+
+        let renderer = app.descendants(matching: .any)["renderer.uikit"]
+        XCTAssertTrue(renderer.waitForExistence(timeout: 5))
+        renderer.tap()
+
+        XCTAssertTrue(app.staticTexts["Ouch! Hungry"].waitForExistence(timeout: 5))
+    }
+
+    func testFoodDetailsToPaymentAddressRoute() {
+        let app = XCUIApplication(bundleIdentifier: "com.openpencil.inspector.uikit-demo")
+        app.launchArguments = ["-openFoodDetails"]
+        app.launch()
+
+        let orderNow = app.buttons["0:536"]
+        XCTAssertTrue(orderNow.waitForExistence(timeout: 5))
+        orderNow.tap()
+
+        XCTAssertTrue(app.otherElements["0:560"].waitForExistence(timeout: 5))
+    }
+}
